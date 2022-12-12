@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="JuanMino_Evaluacion2P.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:JuanMino_Evaluacion2P"
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        Title="Evaluacion 2P - Juan Javier Miño Arboleda"
+        ContentTemplate="{DataTemplate local:RecargaPage}"
+        Route="RecargaPage" />
+
+</Shell>
